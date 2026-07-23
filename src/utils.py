@@ -14,7 +14,7 @@ def get_model_name(path):
 
 def load_yaml(file_path):
     data = {}
-    with open(file_path) as stream:
+    with open(file_path, "r", encoding="utf-8") as stream:
         try:
             data = yaml.safe_load(stream)
         except yaml.YAMLError as e:

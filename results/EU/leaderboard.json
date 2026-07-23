@@ -1,0 +1,11 @@
+{
+  "Qwen2_5-0_5B-Instruct": {
+    "en": {
+      "complex_emotions": 0.061224489795918366,
+      "emotional_cues": 0.14285714285714285,
+      "personal_beliefs_and_experiences": 0.08928571428571429,
+      "perspective_taking": 0.07462686567164178,
+      "Overall": 0.085
+    }
+  }
+}
