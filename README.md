@@ -1,3 +1,34 @@
+# EmoBench-LLM-Evaluation
+
+## 👩‍💻 My Implementation
+
+This repository contains my implementation and evaluation of the **EmoBench (ACL 2024)** benchmark for evaluating the Emotional Intelligence of Large Language Models (LLMs).
+
+### Model Used
+- Qwen2.5-0.5B-Instruct
+
+### Tasks Evaluated
+- Emotional Understanding (EU)
+- Emotional Application (EA)
+
+### Results
+
+| Task | Accuracy |
+|------|---------:|
+| Emotional Understanding (EU) | 8.5% |
+| Emotional Application (EA) | 48.5% |
+
+### Tech Stack
+- Python
+- Hugging Face Transformers
+- PyTorch
+- JSONL
+- YAML
+
+### Reference
+This work is based on the original **EmoBench (ACL 2024)** repository. The original documentation is preserved below.
+
+---
 # EmoBench
 > This is the official repository for our paper ["EmoBench: Evaluating the Emotional Intelligence of Large Language Models"](https://aclanthology.org/2024.acl-long.326/)
 
